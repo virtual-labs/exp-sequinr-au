@@ -1,1 +1,1 @@
-## Experiment name
+## Reading FASTA using SequinR
