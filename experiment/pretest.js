@@ -88,26 +88,58 @@
      /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+     const myQuestions = [
+        {
+            question: "1.FASTA file starts with symbol", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "*", ///// Write the option 1 inside double quotes
+                b: ">", ///// Write the option 2 inside double quotes
+                c: "<", ///// Write the option 2 inside double quotes
+                d: "(", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "2.The alignment used in comparing two or more than two sequences of same or different organisms", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Local alignment", ///// Write the option 1 inside double quotes
+                b: "Global alignment", ///// Write the option 2 inside double quotes
+                c: "Pairwise sequence alignment", ///// Write the option 2 inside double quotes
+                d: "Multiple Sequence alignment", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "3. Alignment used to detect the highly similar sequences.", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Local alignment", ///// Write the option 1 inside double quotes
+                b: "Global alignment", ///// Write the option 2 inside double quotes
+                c: "Pairwise sequence alignment", ///// Write the option 2 inside double quotes
+                d: "Multiple Sequence alignment", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "4.Alignment used to detect the highly conserved regions.", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Local alignment", ///// Write the option 1 inside double quotes
+                b: "Global alignment", ///// Write the option 2 inside double quotes
+                c: "Pairwise sequence alignment", ///// Write the option 2 inside double quotes
+                d: "Multiple Sequence alignment", ///// Write the option 2 inside double quotes
+
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
-
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
-
-
      ];
 
 
