@@ -88,26 +88,65 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+
+        {
+            question: "1.Name the library used for reading FASTA file in R programming", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "StringR", ///// Write the option 1 inside double quotes
+                b: "RSQLite", ///// Write the option 2 inside double quotes
+                c: "Seqinr", ///// Write the option 2 inside double quotes
+                d: "Rstan", ///// Write the option 2 inside double quotes
+
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+        
+
+        {
+            question: "2.Function used for reading FASTA file in R programming:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "get.fasta()", ///// Write the option 1 inside double quotes
+                b: "read.fasta()", ///// Write the option 2 inside double quotes
+                c: "file.fasta()", ///// Write the option 2 inside double quotes
+                d: "write.fasta()", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+        {
+            question: "3. Function used for retrieving sequence from FASTA file in R programming:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: " getSequence()", ///// Write the option 1 inside double quotes
+                b: "getSequence.list()", ///// Write the option 2 inside double quotes
+                c: "get.fasta()", ///// Write the option 2 inside double quotes
+                d: "getSequence.FastA()", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
 
-        
+
+        {
+            question: "4. The extention of a FASTA file ?", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "GenBank", ///// Write the option 1 inside double quotes
+                b: "fasta", ///// Write the option 2 inside double quotes
+                c: "fastaQ", ///// Write the option 2 inside double quotes
+                d: "csv", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
     ];
 
 
